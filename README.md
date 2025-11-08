@@ -57,3 +57,47 @@ O objetivo deste projeto é desenvolver uma **solução inteligente** que:
 ## 6. Estrutura do Projeto
 
 
+rota-inteligente/
+┣ 📂 data/
+┃ ┗ entregas.csv ← Dados de entrada (bairros e coordenadas)
+┣ 📂 docs/
+┃ ┣ grafo.png ← Mapa com a rota otimizada
+┃ ┗ agrupamento.png ← Gráfico dos clusters (K-Means)
+┣ 📂 src/
+┃ ┣ grafo.py ← Implementação do grafo e A*
+┃ ┣ clustering.py ← Agrupamento com K-Means
+┃ ┗ main.py ← Execução principal
+┣ 📄 requirements.txt ← Bibliotecas do projeto
+┗ 📄 README.md ← Documentação do projeto
+
+---
+
+## 7. Referências
+
+- Wired (2013) — *UPS ORION: How Math Saved Millions of Miles*  
+  https://www.wired.com/2013/06/ups-astronomical-math  
+
+- Medium — *Optimizing Logistics: Clustering and MILP*  
+  https://medium.com/@KingHenryMorgansDiary/optimizing-logistics-a-case-study-on-clustering-and-milp-for-delivery-route-optimization-f47fed709ad2  
+
+- ResearchGate — *AI-Powered Route Optimization*  
+  https://www.researchgate.net/publication/389987796_AI-Powered_Route_Optimization  
+
+- Kardinal.ai — *Fresh Product Delivery Case Study*  
+  https://kardinal.ai/case-study-fresh-product-delivery  
+
+---
+
+## 8. Vídeo Pitch (até 4 minutos)
+
+Apresente:
+
+1. O problema enfrentado pela Sabor Express;  
+2. O funcionamento dos algoritmos A* e K-Means;  
+3. Os resultados e gráficos gerados;  
+4. Conclusão sobre os benefícios obtidos.
+
+Adicione o link do vídeo após a gravação:
+
+**Link do vídeo (YouTube - não listado):**  
+https://youtube.com
