@@ -56,22 +56,29 @@ O objetivo deste projeto é desenvolver uma **solução inteligente** que:
 
 ## 6. Estrutura do Projeto
 
+## 6. Estrutura do Projeto
 
+
+```bash
 rota-inteligente/
+│
 ├── data/
-│ └── entregas.csv # Dados de entrada (bairros e coordenadas)
+│   └── entregas.csv           ← Dados de entrada (bairros e coordenadas)
 │
 ├── docs/
-│ ├── grafo.png # Mapa com a rota otimizada
-│ └── agrupamento.png # Gráfico dos clusters (K-Means)
+│   ├── grafo.png              ← Mapa com a rota otimizada
+│   └── agrupamento.png        ← Gráfico dos clusters (K-Means)
 │
 ├── src/
-│ ├── grafo.py # Implementação do grafo e A*
-│ ├── clustering.py # Agrupamento com K-Means
-│ └── main.py # Execução principal
+│   ├── grafo.py               ← Implementação do grafo e A*
+│   ├── clustering.py          ← Agrupamento com K-Means
+│   └── main.py                ← Execução principal
 │
-├── requirements.txt # Bibliotecas do projeto
-└── README.md # Documentação do projeto
+├── requirements.txt           ← Bibliotecas do projeto
+└── README.md                  ← Documentação do projeto
+
+```
+
 ---
 
 ## 7. Referências
