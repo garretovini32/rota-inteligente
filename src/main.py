@@ -1,12 +1,12 @@
-from grafo import criar_grafo, menor_caminho
+from grafo import criar_grafo, menor_caminho, desenhar_grafo
 from clustering import agrupar_entregas
 
-# === Parte 1: GRAFO ===
-print("\n=== 🚚 Rota Inteligente - Otimização de Entregas ===")
+print("\n=== Rota Inteligente - Otimização de Entregas ===")
 
 G = criar_grafo()
 origem = "Centro"
 destino = "Consolação"
+
 caminho, distancia = menor_caminho(G, origem, destino)
 
 if caminho:
@@ -15,7 +15,10 @@ if caminho:
 else:
     print("Não há caminho possível entre os pontos informados.")
 
-# === Parte 2: AGRUPAMENTO ===
-print("\n=== 📦 Agrupamento de Entregas ===")
+# Gera o grafo visual com o caminho destacado
+desenhar_grafo(G, caminho)
+print("\nImagem do grafo salva em: docs/grafo.png")
+
+print("\n=== Agrupamento de Entregas ===")
 df_resultado = agrupar_entregas("../data/entregas.csv", n_clusters=2)
 print(df_resultado[["bairro", "cluster"]])
