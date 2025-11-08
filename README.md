@@ -53,7 +53,6 @@ O objetivo deste projeto é desenvolver uma **solução inteligente** que:
 ![Agrupamento](docs/agrupamento.png)
 
 ---
-
 ## 6. Estrutura do Projeto
 
 
@@ -95,19 +94,9 @@ rota-inteligente/
 
 ---
 
-## 8. Vídeo Pitch (até 4 minutos)
+## 8. Vídeo Pitch 
 
-Apresente:
-
-1. O problema enfrentado pela Sabor Express;  
-2. O funcionamento dos algoritmos A* e K-Means;  
-3. Os resultados e gráficos gerados;  
-4. Conclusão sobre os benefícios obtidos.
-
-Adicione o link do vídeo após a gravação:
-
-**Link do vídeo (YouTube - não listado):**  
-https://youtube.com
+https://youtu.be/ZdQj5WOm1Zs
 
 
 ## 9. Análise e Conclusão
