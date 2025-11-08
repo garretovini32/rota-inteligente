@@ -56,8 +56,6 @@ O objetivo deste projeto é desenvolver uma **solução inteligente** que:
 
 ## 6. Estrutura do Projeto
 
-## 6. Estrutura do Projeto
-
 
 ```bash
 rota-inteligente/
@@ -110,3 +108,13 @@ Adicione o link do vídeo após a gravação:
 
 **Link do vídeo (YouTube - não listado):**  
 https://youtube.com
+
+
+## 9. Análise e Conclusão
+
+O projeto demonstrou que a combinação dos algoritmos A* e K-Means é eficaz para otimizar entregas urbanas.
+O A* garantiu trajetos mínimos com base em custo acumulado e heurística de distância, enquanto o K-Means
+permitiu dividir as entregas em grupos próximos, reduzindo sobreposição de trajetos.  
+Como limitação, o modelo ainda não considera condições reais de trânsito ou restrições de horário.  
+Como melhoria futura, seria possível integrar APIs de mapas (como Google Maps) e algoritmos genéticos
+para ajuste dinâmico das rotas.
